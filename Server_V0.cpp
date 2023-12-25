@@ -22,14 +22,23 @@ Server::Server(boost::asio::io_service& io_service, unsigned short port_number)
             //클라이언트의 연결을 동기적으로 수락하고, 연결된 소켓을 socket 변수에 연결
             acceptor_.accept(socket);
 
+            std::cout << "New connection established with client." << std::endl;
+
             //에러 코드 객체 error를 선언
             boost::system::error_code error;
             //클라이언트로부터 데이터를 읽습니다.읽은 데이터는 data_ 배열에 저장되고, 읽은 바이트 수는 length에 저장됩니다.
             size_t length = socket.read_some(boost::asio::buffer(data_), error);
 
             if (error) {
-                // 에러 발생 시 서버에 에러를 던짐
-                throw boost::system::system_error(error);
+                if (error == boost::asio::error::eof) {
+                    // 클라이언트가 연결을 정상적으로 종료한 경우
+                    std::cout << "클라이언트가 연결을 종료했습니다." << std::endl;
+                }
+                else {
+                    // 실제 오류가 발생한 경우
+                    throw boost::system::system_error(error);
+                }
+                continue;
             }
 
             // 읽은 데이터를 std::string으로 변환
