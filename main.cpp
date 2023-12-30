@@ -1,6 +1,7 @@
 #include "server.h"
 #include <iostream>
 
+
 int main() {
     try {
         unsigned short port_number = 12333;
@@ -9,6 +10,8 @@ int main() {
 
         Server server(io_service, port_number);
         server.run();
+
+        // 여기서부터 MongoDB와의 상호 작용 코드 작성
     }
     catch (std::exception& e) {
         std::cerr << "Error: " << e.what() << std::endl;
@@ -20,3 +23,5 @@ int main() {
 
     return 0;
 }
+
+
