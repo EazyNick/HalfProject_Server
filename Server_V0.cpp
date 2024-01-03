@@ -49,14 +49,15 @@ Server::Server(boost::asio::io_service& io_service, unsigned short port_number)
             std::cout << std::endl;
 
             
-             // 클라이언트로부터 받은 메시지가 "Hello, server 한글되냐?!\n"와 일치하는지 확인
-            if (received_message == "Hello, server 한글되냐?!\n") {
+             // 클라이언트로부터 받은 메시지가 "Hello, server"와 일치하는지 확인
+            if (received_message == "Hello, server") {
                 // 기대하는 메시지와 일치하면 클라이언트에게 특정 응답을 보냄
-                boost::asio::write(socket, boost::asio::buffer("Hello, client! 한글돼!\n"));
+
+                boost::asio::write(socket, boost::asio::buffer("Hello, client"));
             }
             else {
                 // 그렇지 않다면 다른 메시지를 보낼 수도 있습니다.
-                boost::asio::write(socket, boost::asio::buffer("Received different message.\n"));
+                boost::asio::write(socket, boost::asio::buffer("Received different message"));
             }
             // 메시지 확인을 위한 1초 대기
             std::this_thread::sleep_for(std::chrono::seconds(1));
