@@ -19,12 +19,13 @@ void Session::read() {
 
                 if (received_data == "hello") {
 
+                    
                     const std::string server_ = "tcp://localhost:12333";
-                    const std::string username = "root";
-                    const std::string password = "Password12#";
-                    const std::string database = "example_db";
+                    const std::string username_ = "root";
+                    const std::string password_ = "Password12#";
+                    const std::string database_ = "example_db";
 
-                    readDataFromDB(server_, username, password, database);
+                    readDataFromDB(server_, username_, password_, database_);
                 }
                 write(length);
             }

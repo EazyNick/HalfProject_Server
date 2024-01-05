@@ -1,11 +1,16 @@
 #include <iostream>
 #include "Server.h"
+#include "DBConfig.h"
+
 
 int main() {
     try {
+        // 개방할 포트
+        int Port = 12332;
+
         // 읽기, 쓰기 등 다른 boost 라이브러리를 동작하면, io_context에 다 저장됨.
         boost::asio::io_context io_context;
-        Server server(io_context, 12332);
+        Server server(io_context, Port);
         //Boost.Asio의 이벤트 처리 루프를 시작, 네트워크 이벤트(예: 새로운 연결, 데이터 수신)를 처리하고, 관련 콜백 함수를 실행
         io_context.run();
         //std::cout << "Received: ";
