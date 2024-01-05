@@ -1,5 +1,6 @@
 #include "Session.h"
 #include <iostream>
+#include "DataRead.h"
 
 Session::Session(tcp::socket socket) : socket_(std::move(socket)) {}
 
@@ -13,7 +14,18 @@ void Session::read() {
     socket_.async_read_some(boost::asio::buffer(data_),
         [this, self](const boost::system::error_code& ec, std::size_t length) {
             if (!ec) {
-                std::cout << "Received: " << std::string(data_.data(), length) << "\n";
+                std::string received_data(data_.data(), length);
+                std::cout << "Received: " << received_data << "\n";
+
+                if (received_data == "hello") {
+
+                    const std::string server_ = "tcp://localhost:12333";
+                    const std::string username = "root";
+                    const std::string password = "Password12#";
+                    const std::string database = "example_db";
+
+                    readDataFromDB(server_, username, password, database);
+                }
                 write(length);
             }
             else {

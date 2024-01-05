@@ -8,6 +8,9 @@ int main() {
         Server server(io_context, 12332);
         //Boost.Asio의 이벤트 처리 루프를 시작, 네트워크 이벤트(예: 새로운 연결, 데이터 수신)를 처리하고, 관련 콜백 함수를 실행
         io_context.run();
+        //std::cout << "Received: ";
+
+
     }
     catch (std::exception& e) {
         std::cerr << "Exception: " << e.what() << "\n";
