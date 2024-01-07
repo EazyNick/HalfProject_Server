@@ -38,7 +38,7 @@
     <ClInclude Include="DataRead.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="DBConfig.h">
+    <ClInclude Include="DBConfig%28NON%29.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

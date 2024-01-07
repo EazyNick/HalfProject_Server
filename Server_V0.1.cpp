@@ -1,7 +1,5 @@
 #include <iostream>
 #include "Server.h"
-#include "DBConfig.h"
-
 
 int main() {
     try {
@@ -14,7 +12,6 @@ int main() {
         //Boost.Asio의 이벤트 처리 루프를 시작, 네트워크 이벤트(예: 새로운 연결, 데이터 수신)를 처리하고, 관련 콜백 함수를 실행
         io_context.run();
         //std::cout << "Received: ";
-
 
     }
     catch (std::exception& e) {
@@ -123,6 +120,7 @@ private:
             [this](const boost::system::error_code& ec, tcp::socket socket) {
                 if (!ec) {
                     //새로운 Session 객체를 생성하고, start 메서드를 호출하여 클라이언트와의 통신을 시작
+                    //std::shared_ptr<Session> 타입의 스마트 포인터를 생성
                     auto session = std::make_shared<Session>(std::move(socket));
                     session->start();  // session 함수 start 사용, 연결 성공 메시지를 출력하도록 함
                 }

@@ -19,7 +19,6 @@ void Session::read() {
 
                 if (received_data == "hello") {
 
-                    
                     const std::string server_ = "tcp://localhost:12333";
                     const std::string username_ = "root";
                     const std::string password_ = "Password12#";

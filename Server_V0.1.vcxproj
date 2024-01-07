@@ -141,7 +141,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataRead.h" />
-    <ClInclude Include="DBConfig.h" />
+    <ClInclude Include="DBConfig%28NON%29.h" />
     <ClInclude Include="Server.h" />
     <ClInclude Include="Session.h" />
   </ItemGroup>
