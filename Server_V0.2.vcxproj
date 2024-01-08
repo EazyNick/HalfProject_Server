@@ -132,7 +132,7 @@
   <ItemGroup>
     <ClCompile Include="DataRead.cpp" />
     <ClCompile Include="Server.cpp" />
-    <ClCompile Include="Server_V0.1.cpp" />
+    <ClCompile Include="Server_V0.2.cpp" />
     <ClCompile Include="Session.cpp" />
     <ClCompile Include="SSL.cpp" />
   </ItemGroup>
