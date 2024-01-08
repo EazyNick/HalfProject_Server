@@ -45,6 +45,7 @@ void Session::read() {
         });
 }
 
+// Write 이중 정의, 매개변수 값 다름.
 void Session::write(std::size_t length) {
     auto self(shared_from_this());
     boost::asio::async_write(socket_, boost::asio::buffer(data_.data(), length), // null값을 기준으로 끊어서 보냄

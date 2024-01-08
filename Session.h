@@ -9,7 +9,7 @@ using boost::asio::ip::tcp;
 
 class Session : public std::enable_shared_from_this<Session> {
 public:
-    Session(tcp::socket socket);
+    Session(tcp::socket socket); // Session은 tcp::socket socket 를 매개변수로 받는 생성자를 가짐
     void start();
     void read();
     void write(std::size_t length);
