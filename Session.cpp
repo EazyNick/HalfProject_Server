@@ -27,8 +27,7 @@ void Session::read() {
 
                     std::vector<std::string> DBData = readDataFromDB(kDatabaseServer, kDatabaseUsername, kDatabasePassword, database_);
                     
-                    
-                    std::cout << "Received data length: " << length << " bytes" << std::endl;
+                    //std::cout << "Received data length: " << length << " bytes" << std::endl;
                     
                     write(DBData);
                 }
@@ -48,7 +47,7 @@ void Session::read() {
 
 void Session::write(std::size_t length) {
     auto self(shared_from_this());
-    boost::asio::async_write(socket_, boost::asio::buffer(data_.data(), length),
+    boost::asio::async_write(socket_, boost::asio::buffer(data_.data(), length), // null값을 기준으로 끊어서 보냄
         [this, self](const boost::system::error_code& ec, std::size_t) {
             if (!ec) {
                 read();
