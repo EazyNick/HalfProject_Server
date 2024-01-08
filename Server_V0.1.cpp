@@ -27,7 +27,7 @@ int main() {
 
 
 /*
-// asynchronous(비동기적) Server
+// 초기버전, asynchronous(비동기적) Server
 #include <boost/asio.hpp>
 #include <iostream>
 #include <memory>
