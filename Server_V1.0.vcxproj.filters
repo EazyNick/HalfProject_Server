@@ -33,16 +33,16 @@
     <ClCompile Include="SSL.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\DataWrite\DataWrite.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\DataRemove_\DataDelete.cpp">
-      <Filter>Source Files\Data</Filter>
-    </ClCompile>
     <ClCompile Include="DataRead.cpp">
       <Filter>Source Files\Data</Filter>
     </ClCompile>
-    <ClCompile Include="..\DataUpdate_\DataUpdate.cpp">
+    <ClCompile Include="DataDelete.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="DataUpdate.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="DataWrite.cpp">
       <Filter>Source Files\Data</Filter>
     </ClCompile>
   </ItemGroup>
@@ -56,16 +56,16 @@
     <ClInclude Include="Logger.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\DataWrite\DataWrite.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\DataRemove_\DataDelete.h">
-      <Filter>Header Files\Data</Filter>
-    </ClInclude>
     <ClInclude Include="DataRead.h">
       <Filter>Header Files\Data</Filter>
     </ClInclude>
-    <ClInclude Include="..\DataUpdate_\DataUpdate.h">
+    <ClInclude Include="DataDelete.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="DataUpdate.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="DataWrite.h">
       <Filter>Header Files\Data</Filter>
     </ClInclude>
   </ItemGroup>
