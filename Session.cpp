@@ -1,11 +1,13 @@
 #include "Session.h"
 #include <iostream>
 #include "DataRead.h"
+#include "Logger.h"
 
 Session::Session(tcp::socket socket) : socket_(std::move(socket)) {}
 
 void Session::start() {
     std::cout << "Client connected." << std::endl;
+    Logger::GetInstance().log("Client connected.");
     read();
 }
 
@@ -19,12 +21,13 @@ void Session::read() {
                 //data_에 ["H","l","l","l","o"]로 저장이 됨
                 std::string received_data(data_.data(), length);
                 std::cout << "Received: " << received_data << "\n";
+                Logger::GetInstance().log(received_data);
                 //std::cout << "Received data length: " << length << " bytes" << std::endl;
 
                 const std::string database_ = "example_db";
 
                 if (received_data == "hello") {
-
+                    Logger::GetInstance().log("received_data == hello");
                     std::vector<std::string> DBData = readDataFromDB(kDatabaseServer, kDatabaseUsername, kDatabasePassword, database_);
                     
                     //std::cout << "Received data length: " << length << " bytes" << std::endl;
@@ -48,28 +51,34 @@ void Session::read() {
 // Write 이중 정의, 매개변수 값 다름.
 void Session::write(std::size_t length) {
     auto self(shared_from_this());
+    Logger::GetInstance().log("Write Message");
     boost::asio::async_write(socket_, boost::asio::buffer(data_.data(), length), // null값을 기준으로 끊어서 보냄
         [this, self](const boost::system::error_code& ec, std::size_t) {
             if (!ec) {
+                Logger::GetInstance().log("read");
                 read();
             }
             else {
                 std::cerr << "Write error: " << ec.message() << std::endl;
+                Logger::GetInstance().log(ec.message());
             }
         });
 }
 
 void Session::write(const std::vector<std::string>&data) {
     auto self(shared_from_this());
+    Logger::GetInstance().log("Write Message");
     // 각 문자열을 순회하면서 async_write 호출
     for (const auto& str : data) {
         boost::asio::async_write(socket_, boost::asio::buffer(str),
             [this, self](const boost::system::error_code& ec, std::size_t) {
                 if (!ec) {
+                    Logger::GetInstance().log("read");
                     read();
                 }
                 else {
                     std::cerr << "Write error: " << ec.message() << std::endl;
+                    Logger::GetInstance().log(ec.message());
                 }
             });
     }

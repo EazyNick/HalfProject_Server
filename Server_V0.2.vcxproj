@@ -134,6 +134,7 @@
     <ClCompile Include="..\DataUpdate_\DataUpdate.cpp" />
     <ClCompile Include="..\DataWrite\DataWrite.cpp" />
     <ClCompile Include="DataRead.cpp" />
+    <ClCompile Include="Logger.cpp" />
     <ClCompile Include="Server.cpp" />
     <ClCompile Include="Server_V0.2.cpp" />
     <ClCompile Include="Session.cpp" />
@@ -144,6 +145,7 @@
     <ClInclude Include="..\DataUpdate_\DataUpdate.h" />
     <ClInclude Include="..\DataWrite\DataWrite.h" />
     <ClInclude Include="DataRead.h" />
+    <ClInclude Include="Logger.h" />
     <ClInclude Include="Server.h" />
     <ClInclude Include="Session.h" />
   </ItemGroup>
