@@ -21,7 +21,7 @@
     <ClCompile Include="Server.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Server_V0.2.cpp">
+    <ClCompile Include="Server_V1.0.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Session.cpp">
@@ -30,13 +30,13 @@
     <ClCompile Include="SSL.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\DataRemove_\DataDelete.cpp">
+    <ClCompile Include="..\DataRemove_\DataDelete.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\DataUpdate_\DataUpdate.cpp">
+    <ClCompile Include="..\DataUpdate_\DataUpdate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\DataWrite\DataWrite.cpp">
+    <ClCompile Include="..\DataWrite\DataWrite.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -53,13 +53,13 @@
     <ClInclude Include="Logger.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\DataRemove_\DataDelete.h">
+    <ClInclude Include="..\DataRemove_\DataDelete.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\DataUpdate_\DataUpdate.h">
+    <ClInclude Include="..\DataUpdate_\DataUpdate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\DataWrite\DataWrite.h">
+    <ClInclude Include="..\DataWrite\DataWrite.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
