@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f6cb5662-5f2c-4ad8-abe3-37622a5c4a0a}</ProjectGuid>
-    <RootNamespace>ServerV02</RootNamespace>
+    <ProjectGuid>{43ccce02-e2ba-4dc2-a56c-63c2790debcc}</ProjectGuid>
+    <RootNamespace>Server_V1_0</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -130,20 +130,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\DataRemove_\DataDelete.cpp" />
-    <ClCompile Include="..\DataUpdate_\DataUpdate.cpp" />
-    <ClCompile Include="..\DataWrite\DataWrite.cpp" />
+    <ClCompile Include="..\..\DataRemove_\DataDelete.cpp" />
+    <ClCompile Include="..\..\DataUpdate_\DataUpdate.cpp" />
+    <ClCompile Include="..\..\DataWrite\DataWrite.cpp" />
     <ClCompile Include="DataRead.cpp" />
-    <ClCompile Include="Logger.cpp" />
     <ClCompile Include="Server.cpp" />
     <ClCompile Include="Server_V0.2.cpp" />
     <ClCompile Include="Session.cpp" />
     <ClCompile Include="SSL.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\DataRemove_\DataDelete.h" />
-    <ClInclude Include="..\DataUpdate_\DataUpdate.h" />
-    <ClInclude Include="..\DataWrite\DataWrite.h" />
+    <ClInclude Include="..\..\DataRemove_\DataDelete.h" />
+    <ClInclude Include="..\..\DataUpdate_\DataUpdate.h" />
+    <ClInclude Include="..\..\DataWrite\DataWrite.h" />
     <ClInclude Include="DataRead.h" />
     <ClInclude Include="Logger.h" />
     <ClInclude Include="Server.h" />

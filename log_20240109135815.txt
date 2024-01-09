@@ -1,0 +1,33 @@
+Client connected.
+hello
+received_data == hello
+Write Message
+read
+hello
+received_data == hello
+Write Message
+read
+hello
+received_data == hello
+Write Message
+read
+hello
+received_data == hello
+Write Message
+read
+hello
+received_data == hello
+Write Message
+read
+hello
+received_data == hello
+Write Message
+read
+hello
+received_data == hello
+Write Message
+read
+hello
+received_data == hello
+Write Message
+read
