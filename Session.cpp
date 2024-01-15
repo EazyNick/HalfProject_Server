@@ -6,7 +6,6 @@
 Session::Session(tcp::socket socket) : socket_(std::move(socket)) {}
 
 void Session::start() {
-    std::cout << "Client connected." << std::endl;
     Logger::GetInstance().log("Client connected.");
     read();
 }
@@ -16,12 +15,12 @@ void Session::read() {
     socket_.async_read_some(boost::asio::buffer(data_),
         [this, self](const boost::system::error_code& ec, std::size_t length) {
             if (!ec) {
+                Logger::GetInstance().log("read");
                 //data_.data()는 배열의 첫 번째 요소를 가리키는 포인터를 반환, H, e, l, l, o에서 H를 가리킴
                 //length는 data_ 배열에 저장된 유효한 문자열 데이터의 바이트 수를 의미, 5 Byte
                 //data_에 ["H","l","l","l","o"]로 저장이 됨
                 std::string received_data(data_.data(), length);
-                std::cout << "Received: " << received_data << "\n";
-                Logger::GetInstance().log(received_data);
+                Logger::GetInstance().log("Received: " + received_data);
                 //std::cout << "Received data length: " << length << " bytes" << std::endl;
 
                 const std::string database_ = "example_db";
@@ -38,9 +37,10 @@ void Session::read() {
             }
             else {
                 if (ec == boost::asio::error::eof) {
-                    std::cout << "Client disconnected." << std::endl;
+                    Logger::GetInstance().log("Client disconnected.");
                 }
                 else {
+                    Logger::GetInstance().log("Read error: " + ec.message());
                     std::cerr << "Read error: " << ec.message() << std::endl;
                 }
                 std::fill(data_.begin(), data_.end(), 0); // 버퍼를 0으로 초기화
@@ -55,7 +55,6 @@ void Session::write(std::size_t length) {
     boost::asio::async_write(socket_, boost::asio::buffer(data_.data(), length), // null값을 기준으로 끊어서 보냄
         [this, self](const boost::system::error_code& ec, std::size_t) {
             if (!ec) {
-                Logger::GetInstance().log("read");
                 read();
             }
             else {
@@ -73,7 +72,6 @@ void Session::write(const std::vector<std::string>&data) {
         boost::asio::async_write(socket_, boost::asio::buffer(str),
             [this, self](const boost::system::error_code& ec, std::size_t) {
                 if (!ec) {
-                    Logger::GetInstance().log("read");
                     read();
                 }
                 else {

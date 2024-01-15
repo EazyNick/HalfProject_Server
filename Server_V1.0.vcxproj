@@ -130,16 +130,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="client_session.cpp" />
     <ClCompile Include="DataDelete.cpp" />
     <ClCompile Include="DataRead.cpp" />
     <ClCompile Include="DataUpdate.cpp" />
     <ClCompile Include="DataWrite.cpp" />
     <ClCompile Include="Server.cpp" />
-    <ClCompile Include="Server_V1.0.cpp" />
+    <ClCompile Include="Server_V1.1.cpp" />
     <ClCompile Include="Session.cpp" />
     <ClCompile Include="SSL.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="client_session.h" />
     <ClInclude Include="DataDelete.h" />
     <ClInclude Include="DataRead.h" />
     <ClInclude Include="DataUpdate.h" />

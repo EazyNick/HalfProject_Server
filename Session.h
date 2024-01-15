@@ -9,11 +9,16 @@ using boost::asio::ip::tcp;
 
 class Session : public std::enable_shared_from_this<Session> {
 public:
-    Session(tcp::socket socket); // Session은 tcp::socket socket 를 매개변수로 받는 생성자를 가짐
-    void start();
-    void read();
-    void write(std::size_t length);
-    void write(const std::vector<std::string>& data);
+    explicit Session(tcp::socket socket); // Session은 tcp::socket socket 를 매개변수로 받는 생성자를 가짐
+    //Session이 생성자를 만들 경우, 아래 기본 생성자 추가해주기
+    //Session() = default; // 기본 생성자를 컴파일러에 의해 자동 생성
+    //virtual ~Session() = default; // 가상 소멸자를 정의합니다. 
+    // 가상 소멸자는 파생 클래스에서 객체가 소멸될 때 필요한 자원 정리를 올바르게 하기 위해 사용
+
+    virtual void start();
+    virtual void read();
+    virtual void write(std::size_t length);
+    virtual void write(const std::vector<std::string>& data);
 
 private:
     tcp::socket socket_;

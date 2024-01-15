@@ -24,7 +24,7 @@
     <ClCompile Include="Server.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Server_V1.0.cpp">
+    <ClCompile Include="Server_V1.1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Session.cpp">
@@ -44,6 +44,9 @@
     </ClCompile>
     <ClCompile Include="DataWrite.cpp">
       <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="client_session.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -67,6 +70,9 @@
     </ClInclude>
     <ClInclude Include="DataWrite.h">
       <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="client_session.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,10 +1,13 @@
 #include <iostream>
 #include "Server.h"
+#include "client_session.h"
 
 int main() {
     try {
         // 개방할 포트
         int Port = 12332;
+
+        client_session::initialize();
 
         // 읽기, 쓰기 등 다른 boost 라이브러리를 동작하면, io_context에 다 저장됨.
         boost::asio::io_context io_context;

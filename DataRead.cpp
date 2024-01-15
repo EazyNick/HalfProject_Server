@@ -28,7 +28,7 @@ std::vector<std::string> readDataFromDB(const string& server, const string& user
             oss.str(""); // 스트림을 비웁니다. 빈 문자열로 만듬.
             oss << "Reading from table=(" << result->getInt(1) << ", " << result->getString(2) << 
                 ", " << result->getInt(3) << ")" << '\0'; // \0 = null값 으로 문자열 끝을 지정
-            
+
             // 결과 집합을 반복하면서 각 행을 읽고, 
             // 이를 std::ostringstream에 포맷팅하여 문자열로 변환한 다음 rows 벡터에 추가
             rows.push_back(oss.str());
