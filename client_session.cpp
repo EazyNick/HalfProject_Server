@@ -1,5 +1,6 @@
 #include "client_session.h"
 #include "Logger.h"
+#include <string>
 
 // 정적 멤버 변수 초기화
 unsigned long long client_session::next_id = 1;
@@ -10,20 +11,19 @@ unsigned long long client_session::next_id = 1;
 client_session::client_session(tcp::socket socket)
     : Session(std::move(socket)), client_id(next_id++) {}
 
-    
 void client_session::initialize() {
     next_id = 1;
 }
 
-unsigned long client_session::get_client_id() const {
+unsigned int client_session::get_client_id() const {
     Logger::GetInstance().log("ID:" + std::to_string(client_id));
     return client_id;
 }
 
 void client_session::start() {
 
-    client_session::get_client_id();
-    Session::start();
+    std::string client_id = std::to_string(client_session::get_client_id());
+    Session::start(client_id);
 
     // 데이터 수신 및 전송 로직 구현
 }

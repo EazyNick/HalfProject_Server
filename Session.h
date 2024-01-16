@@ -4,6 +4,7 @@
 #include <boost/asio.hpp>
 #include <array>
 #include <memory>
+#include <string>
 
 using boost::asio::ip::tcp;
 
@@ -16,6 +17,7 @@ public:
     // 가상 소멸자는 파생 클래스에서 객체가 소멸될 때 필요한 자원 정리를 올바르게 하기 위해 사용
 
     virtual void start();
+    virtual void start(std::string client_id);
     virtual void read();
     virtual void write(std::size_t length);
     virtual void write(const std::vector<std::string>& data);

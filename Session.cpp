@@ -5,6 +5,11 @@
 
 Session::Session(tcp::socket socket) : socket_(std::move(socket)) {}
 
+void Session::start(std::string client_id) {
+    Logger::GetInstance().log(client_id + " " + "Client connected.");
+    read();
+}
+
 void Session::start() {
     Logger::GetInstance().log("Client connected.");
     read();
