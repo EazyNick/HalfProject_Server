@@ -14,7 +14,7 @@ void Server::start_accept() {
         [this](const boost::system::error_code& ec, tcp::socket socket) {
             if (!ec) {
                 auto session = std::make_shared<client_session>(std::move(socket));
-                session->start();
+                session->start();   
             }
             else {
                 std::cerr << "Accept error: " << ec.message() << std::endl;
