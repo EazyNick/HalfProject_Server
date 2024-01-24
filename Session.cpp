@@ -38,7 +38,10 @@ void Session::read() {
                     
                     write(DBData);
                 }
-                //write(length);
+                else
+                {
+                    write(length);
+                }
             }
             else {
                 if (ec == boost::asio::error::eof) {
