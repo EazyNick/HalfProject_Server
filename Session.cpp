@@ -1,9 +1,22 @@
 #include "Session.h"
+#include "SessionManager.h"
 #include <iostream>
 #include "DataRead.h"
 #include "Logger.h"
 
-Session::Session(tcp::socket socket) : socket_(std::move(socket)) {}
+template <typename T>   
+bool checkType(const T& value) {
+    if constexpr (std::is_same<T, std::string>::value) {
+        std::cout << "Type is std::string" << std::endl;
+        return true;
+    }
+    else {
+        std::cout << "Type is not std::string" << std::endl;
+        return false;
+    }
+}
+
+Session::Session(tcp::socket socket, SessionManager& manager) : socket_(std::move(socket)) {}
 
 void Session::start(std::string client_id) {
     Logger::GetInstance().log(client_id + " " + "Client connected.");
@@ -18,6 +31,7 @@ void Session::start() {
 void Session::read() {
     auto self(shared_from_this());
     socket_.async_read_some(boost::asio::buffer(data_),
+
         [this, self](const boost::system::error_code& ec, std::size_t length) {
             if (!ec) {
                 Logger::GetInstance().log("read");
@@ -30,13 +44,26 @@ void Session::read() {
 
                 const std::string database_ = "example_db";
 
-                if (received_data == "hello") {
+                int test = 1234;
+
+                if (test == 12345) {
                     Logger::GetInstance().log("received_data == hello");
                     std::vector<std::string> DBData = readDataFromDB(kDatabaseServer, kDatabaseUsername, kDatabasePassword, database_);
                     
                     //std::cout << "Received data length: " << length << " bytes" << std::endl;
                     
                     write(DBData);
+                }
+                else if (checkType(received_data)) {
+
+                    SessionManager session_manager;
+
+                    auto session = session_manager.get_session(2);
+                    if (session) {
+                        // 2번 클라이언트에게 데이터 전송
+                        session->write(length);
+                    }
+                        read();
                 }
                 else
                 {

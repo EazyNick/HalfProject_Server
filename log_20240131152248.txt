@@ -1,0 +1,16 @@
+SessionManager : generate_client_id
+SessionManager : add_session
+ID:0
+1 Client connected.
+SessionManager : generate_client_id
+SessionManager : add_session
+ID:1
+2 Client connected.
+SessionManager : generate_client_id
+SessionManager : add_session
+ID:2
+3 Client connected.
+SessionManager : generate_client_id
+SessionManager : add_session
+ID:3
+4 Client connected.

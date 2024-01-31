@@ -1,0 +1,342 @@
+ID:0
+0 Client connected.
+read
+Received: Location: X=1000.000 Y=1810.000 Z=90.212, Rotation: P=0.000000 Y=0.000000 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1000.000 Y=1810.000 Z=90.212, Rotation: P=0.000000 Y=0.000000 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1000.000 Y=1810.000 Z=90.212, Rotation: P=0.000000 Y=0.000000 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1000.000 Y=1810.000 Z=90.212, Rotation: P=0.000000 Y=0.000000 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1001.538 Y=1808.516 Z=90.212, Rotation: P=0.000000 Y=-20.673157 R=0.000000, Velocity: X=47.614 Y=-45.927 Z=0.000
+read
+Received: Location: X=1003.722 Y=1806.410 Z=90.212, Rotation: P=0.000000 Y=-37.051392 R=0.000000, Velocity: X=85.336 Y=-82.312 Z=0.000
+read
+Received: Location: X=1007.431 Y=1802.833 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=128.034 Y=-123.497 Z=0.000
+read
+Received: Location: X=1009.961 Y=1800.392 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=152.491 Y=-147.087 Z=0.000
+read
+Received: Location: X=1011.411 Y=1798.993 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=165.416 Y=-159.553 Z=0.000
+read
+Received: Location: X=1013.140 Y=1797.326 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=179.605 Y=-173.240 Z=0.000
+read
+Received: Location: X=1015.329 Y=1795.214 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=196.065 Y=-189.117 Z=0.000Location: X=1018.157 Y=1792.487 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=215.413 Y=-207.779 Z=0.000
+read
+Received: Location: X=1021.007 Y=1789.737 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=233.413 Y=-225.141 Z=0.000
+read
+Received: Location: X=1024.216 Y=1786.642 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=252.171 Y=-243.235 Z=0.000
+read
+Received: Location: X=1028.469 Y=1782.540 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=274.970 Y=-265.225 Z=0.000
+read
+Received: Location: X=1032.468 Y=1778.682 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=294.955 Y=-284.502 Z=0.000
+read
+Received: Location: X=1035.440 Y=1775.816 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=309.126 Y=-298.171 Z=0.000
+read
+Received: Location: X=1040.740 Y=1770.704 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=332.615 Y=-320.828 Z=0.000
+read
+Received: Location: X=1043.614 Y=1767.931 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=344.899 Y=-332.676 Z=0.000
+read
+Received: Location: X=1047.668 Y=1764.021 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=361.432 Y=-348.623 Z=0.000
+read
+Received: Location: X=1052.303 Y=1759.551 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=379.435 Y=-365.988 Z=0.000Location: X=1058.805 Y=1753.279 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=403.206 Y=-388.917 Z=0.000
+read
+Received: Location: X=1062.455 Y=1749.758 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=416.137 Y=-401.390 Z=0.000
+read
+Received: Location: X=1067.000 Y=1745.374 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.656 Y=-416.359 Z=0.000
+read
+Received: Location: X=1072.275 Y=1740.286 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000
+read
+Received: Location: X=1077.536 Y=1735.211 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000Location: X=1083.980 Y=1728.996 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000
+read
+Received: Location: X=1087.735 Y=1725.375 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000
+read
+Received: Location: X=1094.074 Y=1719.260 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000Location: X=1099.107 Y=1714.405 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000
+read
+Received: Location: X=1102.706 Y=1710.934 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000
+read
+Received: Location: X=1107.095 Y=1706.701 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000Location: X=1113.636 Y=1700.391 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000
+read
+Received: Location: X=1118.773 Y=1695.437 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000
+read
+Received: Location: X=1122.371 Y=1691.965 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000
+read
+Received: Location: X=1128.937 Y=1685.632 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000
+read
+Received: Location: X=1132.538 Y=1682.159 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000Location: X=1138.631 Y=1676.282 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000
+read
+Received: Location: X=1142.229 Y=1672.811 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000Location: X=1148.464 Y=1666.797 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000
+read
+Received: Location: X=1152.176 Y=1663.217 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000
+read
+Received: Location: X=1158.447 Y=1657.168 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000
+read
+Received: Location: X=1162.046 Y=1653.697 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000
+read
+Received: Location: X=1166.569 Y=1649.334 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000
+read
+Received: Location: X=1171.592 Y=1644.489 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000Location: X=1175.191 Y=1641.018 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000Location: X=1178.789 Y=1637.547 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000
+read
+Received: Location: X=1182.396 Y=1634.068 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000Location: X=1185.995 Y=1630.596 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000
+read
+Received: Location: X=1189.939 Y=1626.792 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000Location: X=1193.563 Y=1623.297 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000
+read
+Received: Location: X=1197.161 Y=1619.826 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000Location: X=1200.909 Y=1616.211 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000
+read
+Received: Location: X=1204.738 Y=1612.518 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000
+read
+Received: Location: X=1208.447 Y=1608.940 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000
+read
+Received: Location: X=1212.297 Y=1605.226 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000
+read
+Received: Location: X=1215.904 Y=1601.747 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=431.847 Y=-416.543 Z=0.000
+read
+Received: Location: X=1215.904 Y=1601.747 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1215.904 Y=1601.747 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1215.904 Y=1601.747 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1215.904 Y=1601.747 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1215.904 Y=1601.747 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000Location: X=1215.904 Y=1601.747 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1215.904 Y=1601.747 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1215.904 Y=1601.747 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1215.904 Y=1601.747 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1215.904 Y=1601.747 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1215.904 Y=1601.747 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1215.904 Y=1601.747 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1215.904 Y=1601.747 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1215.904 Y=1601.747 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1215.904 Y=1601.747 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1215.904 Y=1601.747 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1215.904 Y=1601.747 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1215.904 Y=1601.747 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1215.904 Y=1601.747 Z=90.212, Rotation: P=0.000000 Y=-43.966553 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+Client disconnected.
+ID:0
+0 Client connected.
+read
+Received: Location: X=1000.000 Y=1810.000 Z=90.212, Rotation: P=0.000000 Y=0.000000 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1000.000 Y=1810.000 Z=90.212, Rotation: P=0.000000 Y=0.000000 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1000.000 Y=1810.000 Z=90.212, Rotation: P=0.000000 Y=0.000000 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1000.000 Y=1810.000 Z=90.212, Rotation: P=0.000000 Y=0.000000 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1000.000 Y=1810.000 Z=90.212, Rotation: P=0.000000 Y=0.000000 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1000.000 Y=1810.000 Z=90.212, Rotation: P=0.000000 Y=0.000000 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1000.000 Y=1810.000 Z=90.212, Rotation: P=0.000000 Y=0.000000 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1000.000 Y=1810.000 Z=90.212, Rotation: P=0.000000 Y=0.000000 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1000.000 Y=1810.000 Z=90.212, Rotation: P=0.000000 Y=0.000000 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1000.000 Y=1810.000 Z=90.212, Rotation: P=0.000000 Y=0.000000 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1000.000 Y=1810.000 Z=90.212, Rotation: P=0.000000 Y=0.000000 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1000.000 Y=1810.000 Z=90.212, Rotation: P=0.000000 Y=0.000000 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1000.000 Y=1810.000 Z=90.212, Rotation: P=0.000000 Y=0.000000 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1000.000 Y=1810.000 Z=90.212, Rotation: P=0.000000 Y=0.000000 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1000.000 Y=1810.000 Z=90.212, Rotation: P=0.000000 Y=0.000000 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1000.000 Y=1810.000 Z=90.212, Rotation: P=0.000000 Y=0.000000 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1000.000 Y=1810.000 Z=90.212, Rotation: P=0.000000 Y=0.000000 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1000.000 Y=1810.000 Z=90.212, Rotation: P=0.000000 Y=0.000000 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1000.000 Y=1810.000 Z=90.212, Rotation: P=0.000000 Y=0.000000 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1000.000 Y=1810.000 Z=90.212, Rotation: P=0.000000 Y=0.000000 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1000.000 Y=1810.000 Z=90.212, Rotation: P=0.000000 Y=0.000000 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1000.000 Y=1810.000 Z=90.212, Rotation: P=0.000000 Y=0.000000 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1000.161 Y=1809.876 Z=90.212, Rotation: P=0.000000 Y=-6.371765 R=0.000000, Velocity: X=16.173 Y=-12.416 Z=0.000
+read
+Received: Location: X=1000.894 Y=1809.314 Z=90.212, Rotation: P=0.000000 Y=-17.149750 R=0.000000, Velocity: X=43.531 Y=-33.418 Z=0.000
+read
+Received: Location: X=1001.370 Y=1808.948 Z=90.212, Rotation: P=0.000000 Y=-22.483185 R=0.000000, Velocity: X=57.069 Y=-43.811 Z=0.000
+read
+Received: Location: X=1001.958 Y=1808.497 Z=90.212, Rotation: P=0.000000 Y=-27.816559 R=0.000000, Velocity: X=70.606 Y=-54.204 Z=0.000
+read
+Received: Location: X=1002.659 Y=1807.958 Z=90.212, Rotation: P=0.000000 Y=-33.149994 R=0.000000, Velocity: X=84.144 Y=-64.597 Z=0.000
+read
+Received: Location: X=1003.473 Y=1807.334 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=97.682 Y=-74.990 Z=0.000
+read
+Received: Location: X=1004.400 Y=1806.622 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=111.219 Y=-85.383 Z=0.000
+read
+Received: Location: X=1005.440 Y=1805.824 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=124.757 Y=-95.776 Z=0.000
+read
+Received: Location: X=1006.592 Y=1804.939 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=138.295 Y=-106.168 Z=0.000
+read
+Received: Location: X=1007.926 Y=1803.915 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=152.502 Y=-117.075 Z=0.000
+read
+Received: Location: X=1009.310 Y=1802.853 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=166.040 Y=-127.468 Z=0.000
+read
+Received: Location: X=1010.806 Y=1801.704 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=179.580 Y=-137.862 Z=0.000
+read
+Received: Location: X=1012.835 Y=1800.146 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=196.365 Y=-150.749 Z=0.000
+read
+Received: Location: X=1014.585 Y=1798.803 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=209.903 Y=-161.141 Z=0.000
+read
+Received: Location: X=1016.447 Y=1797.374 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=223.440 Y=-171.534 Z=0.000
+read
+Received: Location: X=1018.452 Y=1795.834 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=237.175 Y=-182.078 Z=0.000
+read
+Received: Location: X=1021.228 Y=1793.703 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=254.871 Y=-195.663 Z=0.000
+read
+Received: Location: X=1023.606 Y=1791.878 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=269.218 Y=-206.677 Z=0.000
+read
+Received: Location: X=1025.962 Y=1790.069 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=282.755 Y=-217.070 Z=0.000
+read
+Received: Location: X=1028.935 Y=1787.786 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=298.914 Y=-229.475 Z=0.000
+read
+Received: Location: X=1031.573 Y=1785.761 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=312.622 Y=-239.999 Z=0.000
+read
+Received: Location: X=1034.292 Y=1783.675 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=326.160 Y=-250.392 Z=0.000
+read
+Received: Location: X=1037.134 Y=1781.492 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=339.751 Y=-260.826 Z=0.000
+read
+Received: Location: X=1040.078 Y=1779.232 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=353.289 Y=-271.219 Z=0.000
+read
+Received: Location: X=1043.135 Y=1776.885 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=366.828 Y=-281.612 Z=0.000
+read
+Received: Location: X=1046.305 Y=1774.452 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=380.366 Y=-292.005 Z=0.000
+read
+Received: Location: X=1049.588 Y=1771.932 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=393.903 Y=-302.398 Z=0.000
+read
+Received: Location: X=1053.803 Y=1768.696 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=410.581 Y=-315.202 Z=0.000
+read
+Received: Location: X=1057.337 Y=1765.982 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=424.119 Y=-325.594 Z=0.000
+read
+Received: Location: X=1060.985 Y=1763.182 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=437.657 Y=-335.987 Z=0.000
+read
+Received: Location: X=1064.745 Y=1760.296 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=451.194 Y=-346.380 Z=0.000
+read
+Received: Location: X=1068.617 Y=1757.323 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=464.732 Y=-356.773 Z=0.000
+read
+Received: Location: X=1072.584 Y=1754.278 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1076.550 Y=1751.233 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1080.516 Y=1748.188 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1084.482 Y=1745.144 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1088.448 Y=1742.099 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1092.529 Y=1738.966 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1096.496 Y=1735.921 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1100.462 Y=1732.876 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1104.428 Y=1729.831 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1108.394 Y=1726.786 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1112.360 Y=1723.742 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1116.572 Y=1720.508 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1120.539 Y=1717.463 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1124.505 Y=1714.418 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1128.471 Y=1711.373 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1132.701 Y=1708.126 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1136.667 Y=1705.082 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000Location: X=1140.633 Y=1702.037 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1145.316 Y=1698.441 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1149.812 Y=1694.990 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1153.778 Y=1691.945 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1157.744 Y=1688.901 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1161.710 Y=1685.856 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1165.676 Y=1682.811 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000Location: X=1169.642 Y=1679.766 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1175.064 Y=1675.604 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1179.473 Y=1672.219 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1183.602 Y=1669.050 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1188.127 Y=1665.575 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1192.094 Y=1662.531 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1196.060 Y=1659.486 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1200.026 Y=1656.441 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000Location: X=1203.992 Y=1653.396 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1208.971 Y=1649.574 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1212.937 Y=1646.529 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1217.111 Y=1643.325 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1221.077 Y=1640.280 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=475.927 Y=-365.367 Z=0.000
+read
+Received: Location: X=1221.077 Y=1640.280 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000Location: X=1221.077 Y=1640.280 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1221.077 Y=1640.280 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000Location: X=1221.077 Y=1640.280 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1221.077 Y=1640.280 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1221.077 Y=1640.280 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1221.077 Y=1640.280 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1221.077 Y=1640.280 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000Location: X=1221.077 Y=1640.280 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1221.077 Y=1640.280 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1221.077 Y=1640.280 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1221.077 Y=1640.280 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1221.077 Y=1640.280 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1221.077 Y=1640.280 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1221.077 Y=1640.280 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1221.077 Y=1640.280 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1221.077 Y=1640.280 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1221.077 Y=1640.280 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1221.077 Y=1640.280 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+read
+Received: Location: X=1221.077 Y=1640.280 Z=90.212, Rotation: P=0.000000 Y=-37.513306 R=0.000000, Velocity: X=0.000 Y=0.000 Z=0.000
+Client disconnected.
