@@ -33,20 +33,20 @@
     <ClCompile Include="SSL.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DataRead.cpp">
-      <Filter>Source Files\Data</Filter>
-    </ClCompile>
-    <ClCompile Include="DataDelete.cpp">
-      <Filter>Source Files\Data</Filter>
-    </ClCompile>
-    <ClCompile Include="DataUpdate.cpp">
-      <Filter>Source Files\Data</Filter>
-    </ClCompile>
-    <ClCompile Include="DataWrite.cpp">
-      <Filter>Source Files\Data</Filter>
-    </ClCompile>
     <ClCompile Include="client_session.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MySQLData\DataWrite.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="MySQLData\DataDelete.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="MySQLData\DataRead.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="MySQLData\DataUpdate.cpp">
+      <Filter>Source Files\Data</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -59,23 +59,23 @@
     <ClInclude Include="Logger.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DataRead.h">
-      <Filter>Header Files\Data</Filter>
-    </ClInclude>
-    <ClInclude Include="DataDelete.h">
-      <Filter>Header Files\Data</Filter>
-    </ClInclude>
-    <ClInclude Include="DataUpdate.h">
-      <Filter>Header Files\Data</Filter>
-    </ClInclude>
-    <ClInclude Include="DataWrite.h">
-      <Filter>Header Files\Data</Filter>
-    </ClInclude>
     <ClInclude Include="client_session.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="SessionManager.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQLData\DataWrite.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQLData\DataDelete.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQLData\DataRead.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQLData\DataUpdate.h">
+      <Filter>Header Files\Data</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -131,10 +131,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="client_session.cpp" />
-    <ClCompile Include="DataDelete.cpp" />
-    <ClCompile Include="DataRead.cpp" />
-    <ClCompile Include="DataUpdate.cpp" />
-    <ClCompile Include="DataWrite.cpp" />
+    <ClCompile Include="MySQLData\DataDelete.cpp" />
+    <ClCompile Include="MySQLData\DataRead.cpp" />
+    <ClCompile Include="MySQLData\DataUpdate.cpp" />
+    <ClCompile Include="MySQLData\DataWrite.cpp" />
     <ClCompile Include="Server.cpp" />
     <ClCompile Include="Server_V1.1.cpp" />
     <ClCompile Include="Session.cpp" />
@@ -142,11 +142,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="client_session.h" />
-    <ClInclude Include="DataDelete.h" />
-    <ClInclude Include="DataRead.h" />
-    <ClInclude Include="DataUpdate.h" />
-    <ClInclude Include="DataWrite.h" />
     <ClInclude Include="Logger.h" />
+    <ClInclude Include="MySQLData\DataDelete.h" />
+    <ClInclude Include="MySQLData\DataRead.h" />
+    <ClInclude Include="MySQLData\DataUpdate.h" />
+    <ClInclude Include="MySQLData\DataWrite.h" />
     <ClInclude Include="Server.h" />
     <ClInclude Include="Session.h" />
     <ClInclude Include="SessionManager.h" />

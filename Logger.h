@@ -47,7 +47,7 @@ private:
         localtime_s(&tm_snapshot, &time); // localtime_s를 사용하여 시간을 안전하게 가져옵니다.
 
         std::stringstream ss; // 문자열을 조립하기 위한 스트림을 생성
-        ss << std::put_time(&tm_snapshot, "log_%Y%m%d%H%M%S.txt"); // 시간을 특정 형식("YYYYMMDDHHMMSS")으로 스트림에 기록
+        ss << "log/log_" << std::put_time(&tm_snapshot, "%Y%m%d%H%M%S.txt"); // "log/YYYYMMDDHHMMSS.txt" 형식
         return ss.str(); // 스트림에 저장된 문자열을 std::string으로 변환하여 반환
     }
 };
