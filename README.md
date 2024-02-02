@@ -8,10 +8,7 @@
 
 
 
-
-
-<img src="http://ForTheBadge.com/images/badges/built-with-love.svg" />
-<img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
+<img src="http://ForTheBadge.com/images/badges/built-with-love.svg" /> <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
 
 # Project Title
 
