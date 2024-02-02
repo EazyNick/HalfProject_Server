@@ -56,14 +56,16 @@ void Session::read() {
                 }
                 else if (checkType(received_data)) {
 
-                    SessionManager session_manager;
+                    write(length);
 
-                    auto session = session_manager.get_session(2);
-                    if (session) {
-                        // 2번 클라이언트에게 데이터 전송
-                        session->write(length);
-                    }
-                        read();
+                    //SessionManager session_manager;
+
+                    //auto session = session_manager.get_session(2);
+                    //if (session) {
+                    //    // 2번 클라이언트에게 데이터 전송
+                    //    session->write(length);
+                    //}
+                    //    read();
                 }
                 else
                 {
@@ -86,10 +88,10 @@ void Session::read() {
 // Write 이중 정의, 매개변수 값 다름.
 void Session::write(std::size_t length) {
     auto self(shared_from_this());
-    Logger::GetInstance().log("Write Message");
     boost::asio::async_write(socket_, boost::asio::buffer(data_.data(), length), // null값을 기준으로 끊어서 보냄
         [this, self](const boost::system::error_code& ec, std::size_t) {
             if (!ec) {
+                Logger::GetInstance().log("Write Message");
                 read();
             }
             else {
@@ -101,12 +103,12 @@ void Session::write(std::size_t length) {
 
 void Session::write(const std::vector<std::string>&data) {
     auto self(shared_from_this());
-    Logger::GetInstance().log("Write Message");
     // 각 문자열을 순회하면서 async_write 호출
     for (const auto& str : data) {
         boost::asio::async_write(socket_, boost::asio::buffer(str),
             [this, self](const boost::system::error_code& ec, std::size_t) {
                 if (!ec) {
+                    Logger::GetInstance().log("Write Message");
                     read();
                 }
                 else {
