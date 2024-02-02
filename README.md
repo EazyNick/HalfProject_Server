@@ -32,6 +32,7 @@ Boost 라이브러리, MySQL 설치 필요
 ## Versioning
 
 Boost - boost_1_84_0
+
 MYSQL - MySQL 8.2
 
 ## Authors
