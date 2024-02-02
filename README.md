@@ -10,6 +10,9 @@
 
 <img src="http://ForTheBadge.com/images/badges/built-with-love.svg" /> <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
 
+# Server_V2.1 Fixed
+클라이언트1 > 서버 > 클라이언트1 > 스포너(클라이언트2의 움직임 등 상태)생성 확인 완료
+
 # Project Title
 
 언리얼엔진5와 연동 가능한 자체 서버 제작
@@ -44,8 +47,3 @@ None
 * Hat tip to anyone whose code was used
 * Inspiration
 * etc
-
-
-
-# Server_V2.0
-클라이언트1 > 서버 > 클라이언트1 > 스포너(클라이언트2의 움직임 등 상태)생성 확인 완료
