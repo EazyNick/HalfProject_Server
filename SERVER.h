@@ -12,7 +12,6 @@ public:
     Server(boost::asio::io_context& io_context, short port);
 
 private:
-    SessionManager session_manager_;
     void start_accept();
     tcp::acceptor acceptor_;
 };

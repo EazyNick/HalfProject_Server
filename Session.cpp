@@ -16,7 +16,7 @@ bool checkType(const T& value) {
     }
 }
 
-Session::Session(tcp::socket socket, SessionManager& manager) : socket_(std::move(socket)) {}
+Session::Session(tcp::socket socket) : socket_(std::move(socket)) {}
 
 void Session::start(std::string client_id) {
     Logger::GetInstance().log(client_id + " " + "Client connected.");
@@ -37,7 +37,8 @@ void Session::read() {
                 Logger::GetInstance().log("read");
                 //data_.data()는 배열의 첫 번째 요소를 가리키는 포인터를 반환, H, e, l, l, o에서 H를 가리킴
                 //length는 data_ 배열에 저장된 유효한 문자열 데이터의 바이트 수를 의미, 5 Byte
-                //data_에 ["H","l","l","l","o"]로 저장이 됨
+                //data_에 ['H','l','l','l','o']로 저장이 됨 
+                //'' 는 문자, ""는 문자열
                 std::string received_data(data_.data(), length);
                 Logger::GetInstance().log("Received: " + received_data);
                 //std::cout << "Received data length: " << length << " bytes" << std::endl;
@@ -56,16 +57,29 @@ void Session::read() {
                 }
                 else if (checkType(received_data)) {
 
-                    write(length);
+                    //write(length);
 
-                    //SessionManager session_manager;
+                    SessionManager& manager = SessionManager::GetInstance();
 
-                    //auto session = session_manager.get_session(2);
-                    //if (session) {
-                    //    // 2번 클라이언트에게 데이터 전송
-                    //    session->write(length);
+                    // (int i = 1; i < 100; ++i) {
+                        auto session1 = manager.get_session(1);
+                        auto session2 = manager.get_session(2);
+                        auto session4 = manager.get_session(4);
+                        //if (session2) {
+                        //    //2번 클라이언트에게 데이터 전송
+                        //    session2->write(length);
+                        //}
                     //}
-                    //    read();
+                        if (session1) {
+                            if (session4) {
+                                session4->write(received_data); // 수정된 코드
+                                //session2->write(length);
+                            }
+                            else {
+                                //read();
+                            }
+                            read();
+                        }
                 }
                 else
                 {
@@ -117,4 +131,20 @@ void Session::write(const std::vector<std::string>&data) {
                 }
             });
     }
+
+}
+
+void Session::write(const std::string& data) {
+    auto self(shared_from_this());
+    boost::asio::async_write(socket_, boost::asio::buffer(data), // std::string의 데이터 전송
+        [this, self](const boost::system::error_code& ec, std::size_t /*bytes_transferred*/) {
+            if (!ec) {
+                Logger::GetInstance().log("Write Message");
+                // 다음 읽기 작업을 시작할 수 있습니다.
+                read();
+            }
+            else {
+                Logger::GetInstance().log("Write error: " + ec.message());
+            }
+        });
 }

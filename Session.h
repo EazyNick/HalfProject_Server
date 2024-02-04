@@ -12,7 +12,8 @@ class SessionManager;  // 전방 선언
 
 class Session : public std::enable_shared_from_this<Session> {
 public:
-    Session(tcp::socket socket, SessionManager& manager); // Session은 tcp::socket socket 를 매개변수로 받는 생성자를 가짐
+    Session(tcp::socket socket);
+        // Session은 tcp::socket socket 를 매개변수로 받는 생성자를 가짐
     //Session이 생성자를 만들 경우, 아래 기본 생성자 추가해주기
     //Session() = default; // 기본 생성자를 컴파일러에 의해 자동 생성
     //virtual ~Session() = default; // 가상 소멸자를 정의합니다. 
@@ -23,14 +24,18 @@ public:
     virtual void read();
     virtual void write(std::size_t length);
     virtual void write(const std::vector<std::string>& data);
+    void write(const std::string& data);
 
-    int get_client_id() const {
+    int get_client_id() const { 
         return client_id_;
     }
+        
+protected:
+    unsigned int client_id_;
 
 private:
     // 클라이언트 소켓 관리를 위한 컨테이너
-    int client_id_;
+    //int client_id_;
     tcp::socket socket_;
     std::array<char, 1024> data_;
     //SessionManager& session_manager_;
