@@ -10,7 +10,7 @@
 
 <img src="http://ForTheBadge.com/images/badges/built-with-love.svg" /> <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
 
-# Server_V3.0 Final
+# Server_V1.0 Final
 클라이언트1 > 서버 > 클라이언트2 > 스포너(클라이언트2의 움직임 등 상태)생성 확인 완료
 
 # Project Title
