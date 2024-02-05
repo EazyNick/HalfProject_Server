@@ -24,7 +24,7 @@
     <ClCompile Include="Server.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Server_V1.1.cpp">
+    <ClCompile Include="Server_Final_V1.0.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Session.cpp">
