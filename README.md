@@ -58,7 +58,7 @@ EazyNick[http://github.com/EazyNick]
 
 ## License
 
-None
+MIT License
 
 ## Acknowledgments
 
