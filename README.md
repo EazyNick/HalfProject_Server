@@ -1,50 +1,130 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=BDBDC8&height=150&section=header" />
-<img src="https://capsule-render.vercel.app/api?type=waving&color=BDBDC8&height=150&section=footer" />
+# MMORPG 게임 서버 프로젝트
+
+이 프로젝트는 C++과 Boost.Asio 라이브러리를 활용하여 비동기 네트워크 처리를 지원하는 MMORPG 게임 서버입니다. 이 서버는 다중 클라이언트 연결을 효율적으로 처리하며, 클라이언트 세션 관리, 비동기 데이터 읽기 및 쓰기, 로깅 기능을 지원합니다.
+
+## 목차
+
+- [프로젝트 개요](#프로젝트-개요)
+- [주요 기능](#주요-기능)
+- [프로젝트 구조](#프로젝트-구조)
+- [사용된 기술](#사용된-기술)
+- [설치 및 설정](#설치-및-설정)
+- [사용 방법](#사용-방법)
+- [코드 상세 설명](#코드-상세-설명)
+- [향후 개선 사항](#향후-개선-사항)
+
+## 프로젝트 개요
+
+이 프로젝트는 MMORPG 환경에서 필수적인 기능들을 구현한 서버입니다. 클라이언트 연결 관리를 포함하여 비동기 방식으로 데이터 통신을 처리하여 실시간 MMORPG 게임에서 요구되는 낮은 지연 시간과 높은 성능을 구현합니다.
+
+## 주요 기능
+
+- **비동기 클라이언트 처리**: 여러 클라이언트와 동시에 연결을 유지하고 처리합니다.
+- **세션 관리**: 각 클라이언트에 고유 세션을 할당하고 관리합니다.
+- **로깅 시스템**: `Logger` 클래스를 통해 이벤트 및 오류를 실시간으로 기록합니다.
+- **데이터 통신**: 다양한 데이터 형식으로 읽고 쓰기 기능을 제공하여 유연성을 높였습니다.
+- **에러 처리**: 연결 문제 및 데이터 처리 오류를 포괄적으로 기록하고 관리합니다.
+
+## 프로젝트 구조
+
+```plaintext
+├── Server_Final_V1.0.cpp    # 서버 진입점 파일
+├── Server.cpp               # Server 클래스 구현
+├── Server.h                 # Server 클래스 선언
+├── Session.cpp              # Session 기반 클래스 구현
+├── Session.h                # Session 기반 클래스 선언
+├── client_session.cpp       # client_session 파생 클래스 구현
+├── client_session.h         # client_session 파생 클래스 선언
+├── Logger.h                 # Logger 싱글톤 클래스
+└── README.md                # 프로젝트 문서
+```
+
+### 클래스 요약
+
+- **Server**: 서버를 초기화하고, 새로운 연결을 수락하며, `client_session` 인스턴스를 생성합니다.
+- **Session**: 세션의 기본 클래스이며, 저수준 네트워크 작업을 처리합니다.
+- **client_session**: `Session`을 상속받은 클래스이며, 클라이언트의 세션을 관리하는 구체적인 동작을 추가했습니다.
+- **SessionManager**: 활성 세션을 관리하고, 고유한 클라이언트 ID를 할당하며, 세션을 조회 및 삭제합니다.
+- **Logger**: 싱글톤 패턴을 활용한 로깅 클래스입니다.
+
+---
+
+### 사용된 기술
+
+- **C++**
+- **Boost.Asio**: 비동기 I/O 작업을 처리하기 위해 사용
+- **STL(Standard Template Library)**: 컨테이너 및 문자열 처리용
+
+---
+
+### 설치 및 설정
+
+#### 사전 요구 사항
+
+- C++17 또는 최신 버전
+- Boost.Asio 라이브러리
+- CMake (빌드 도구)
+
+#### 설치 단계
+
+1. 저장소 클론:
+   ```bash
+   git clone https://github.com/yourusername/mmorpg-server.git
+   cd mmorpg-server
+
+2. CMake를 통해 빌드:
+```bash
+mkdir build
+cd build
+cmake ..
+make
+```
+
+### 사용 방법
+1. Server 실행 파일을 실행하여 서버를 시작합니다.
+2. 지정된 포트로 여러 클라이언트를 연결할 수 있습니다.
+3. 로그 및 클라이언트 메시지는 콘솔과 타임스탬프가 기록된 로그 파일에 출력됩니다.
+
+### 코드 상세 설명
+
+#### Server 클래스
+
+- **`start_accept()`**: 클라이언트의 연결을 대기하며, 성공적인 연결 시 새로운 `client_session`을 생성하고 세션을 시작합니다.
+- **로깅**: 연결 수립 및 해제와 같은 이벤트를 로깅합니다.
+
+#### Session 클래스
+
+- **`read()`**: 클라이언트로부터 들어오는 데이터를 비동기적으로 읽고, 클라이언트 입력에 따라 처리합니다.
+- **`write()`**: 다양한 데이터 유형을 클라이언트에 전송할 수 있도록 오버로드된 메서드를 제공합니다.
+- **에러 처리**: 읽기/쓰기 작업 중 발생한 오류를 기록합니다.
+
+#### client_session 클래스
+
+- **고유 동작 추가**: 클라이언트에 맞춘 특정 동작을 추가하며, 클라이언트 연결을 로깅합니다.
+- **세션 관리**: `SessionManager`를 통해 각 클라이언트의 고유한 세션을 관리합니다.
+
+#### Logger 클래스
+
+- **싱글톤 패턴**: 애플리케이션 전반에 걸쳐 하나의 로깅 인스턴스만 사용합니다.
+- **타임스탬프 로그 파일**: 각 세션의 로그가 타임스탬프가 기록된 파일에 저장됩니다.
+
+---
+
+### 향후 개선 사항
+
+- **데이터베이스 연동**: 사용자 정보를 저장할 수 있는 데이터베이스 구현
+- **강화된 에러 처리**: 특정 예외 상황에 대한 오류 처리 개선
+- **보안 통신**: SSL/TLS를 통해 안전한 데이터 전송 구현
+- **클라이언트 인증**: 사용자를 인증하여 세션을 안전하게 관리하는 기능 추가
+
+---
+
+### 라이선스
+
+MIT License에 따라 배포됩니다. 자세한 내용은 `LICENSE` 파일을 참조하세요.
+
+---
 
 
 
 
-
-
-
-
-<img src="http://ForTheBadge.com/images/badges/built-with-love.svg" /> <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
-
-# Server_V2.1 Fixed
-클라이언트1 > 서버 > 클라이언트1 > 스포너(클라이언트2의 움직임 등 상태)생성 확인 완료
-
-# Project Title
-
-언리얼엔진5와 연동 가능한 자체 서버 제작
-
-### Prerequisites
-
-Boost 라이브러리, MySQL 설치 필요
-
-## Deployment
-
--
-
-## Contributing
-
--
-
-## Versioning
-
-Boost - boost_1_84_0
-
-MYSQL - MySQL 8.2
-
-## Authors
-
-EazyNick[http://github.com/EazyNick]
-
-## License
-
-None
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
